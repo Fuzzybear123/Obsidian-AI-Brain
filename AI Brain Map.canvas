@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "home",
+      "type": "file",
+      "file": "AI Brain.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 180
+    },
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "Projects/Project A/Project A.md",
+      "x": -380,
+      "y": 280,
+      "width": 300,
+      "height": 180,
+      "color": "#A78BFA"
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "Projects/Project B/Project B.md",
+      "x": 0,
+      "y": 280,
+      "width": 300,
+      "height": 180,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "Projects/Project C/Project C.md",
+      "x": 380,
+      "y": 280,
+      "width": 300,
+      "height": 180,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "Projects/Project D/Project D.md",
+      "x": -380,
+      "y": 550,
+      "width": 300,
+      "height": 180,
+      "color": "#F97316"
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "Projects/Project E/Project E.md",
+      "x": 0,
+      "y": 550,
+      "width": 300,
+      "height": 180,
+      "color": "#22C55E"
+    },
+    {
+      "id": "p5",
+      "type": "file",
+      "file": "Projects/Project F/Project F.md",
+      "x": 380,
+      "y": 550,
+      "width": 300,
+      "height": 180,
+      "color": "#14B8A6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p5",
+      "toSide": "top"
+    }
+  ]
+}

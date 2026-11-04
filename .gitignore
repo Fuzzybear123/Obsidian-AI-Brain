@@ -1,0 +1,27 @@
+# Local Obsidian state and caches
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/hotkeys.json
+.trash/
+.DS_Store
+Thumbs.db
+
+# Private imported chat history and generated coverage records
+**/Sessions/**
+**/Supporting Sessions/**
+System/Session Index.md
+System/Import Report.md
+System/Import manifest.json
+System/Validation results.json
+System/Backups/
+
+# Credentials and local overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12

@@ -1,0 +1,29 @@
+/* AI Brain: one consistent accent per Codex project. No community plugin required. */
+.markdown-preview-view[class*="project-"], .markdown-source-view[class*="project-"] { --h1-color: var(--project-accent); --h2-color: var(--project-accent); }
+.markdown-preview-view[class*="project-"] h1 { border-left: 5px solid var(--project-accent); padding-left: 16px; }
+[class*="project-"] .callout[data-callout="project"] { border-left: 4px solid var(--project-accent); }
+[class*="project-"] .callout[data-callout="project"] .callout-title { color: var(--project-accent); }
+
+.project-a { --project-accent: #A78BFA; }
+.nav-folder-title[data-path="Projects/Project A"] { color: #A78BFA; border-left: 3px solid #A78BFA; padding-left: 9px; }
+a.internal-link[data-href^="Projects/Project A/"] { color: #A78BFA; }
+
+.project-b { --project-accent: #06B6D4; }
+.nav-folder-title[data-path="Projects/Project B"] { color: #06B6D4; border-left: 3px solid #06B6D4; padding-left: 9px; }
+a.internal-link[data-href^="Projects/Project B/"] { color: #06B6D4; }
+
+.project-c { --project-accent: #3B82F6; }
+.nav-folder-title[data-path="Projects/Project C"] { color: #3B82F6; border-left: 3px solid #3B82F6; padding-left: 9px; }
+a.internal-link[data-href^="Projects/Project C/"] { color: #3B82F6; }
+
+.project-d { --project-accent: #F97316; }
+.nav-folder-title[data-path="Projects/Project D"] { color: #F97316; border-left: 3px solid #F97316; padding-left: 9px; }
+a.internal-link[data-href^="Projects/Project D/"] { color: #F97316; }
+
+.project-e { --project-accent: #22C55E; }
+.nav-folder-title[data-path="Projects/Project E"] { color: #22C55E; border-left: 3px solid #22C55E; padding-left: 9px; }
+a.internal-link[data-href^="Projects/Project E/"] { color: #22C55E; }
+
+.project-f { --project-accent: #14B8A6; }
+.nav-folder-title[data-path="Projects/Project F"] { color: #14B8A6; border-left: 3px solid #14B8A6; padding-left: 9px; }
+a.internal-link[data-href^="Projects/Project F/"] { color: #14B8A6; }
